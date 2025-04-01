@@ -1,0 +1,24 @@
+{
+  "name": "swap_providers",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Root package for the pnpm monorepo",
+  "scripts": {
+    "build": "pnpm --recursive --filter \"./packages/**\" run build && pnpm --filter \"./apps/**\" run build",
+    "dev": "pnpm --parallel --filter \"./**\" run dev",
+    "start:api": "pnpm --filter @gemwallet/api start",
+    "dev:api": "pnpm --filter @gemwallet/api dev",
+    "clean": "find . -name node_modules -type d -prune -exec rm -rf '{}' + && find . -name dist -type d -prune -exec rm -rf '{}' + && rm -rf .pnpm-store"
+  },
+  "keywords": [
+    "monorepo",
+    "pnpm",
+    "workspace"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
+

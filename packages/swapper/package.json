@@ -1,0 +1,24 @@
+{
+  "name": "@gemwallet/swapper",
+  "version": "1.0.0",
+  "description": "Package containing shared business logic (e.g., swapping data)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w --preserveWatchOutput"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@gemwallet/types": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
+
