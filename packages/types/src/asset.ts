@@ -1,5 +1,7 @@
 export enum Chain {
     TON = 'ton',
+    SOLANA = 'solana',
+    ETHEREUM = 'ethereum'
 }
 
 export class Asset {
