@@ -1,7 +1,13 @@
 export enum Chain {
     TON = 'ton',
     SOLANA = 'solana',
-    ETHEREUM = 'ethereum'
+    ETHEREUM = 'ethereum',
+    AVALANCHE = 'avalanche',
+    POLYGON = 'polygon',
+    BASE = 'base',
+    ARBITRUM = 'arbitrum',
+    OPTIMISM = 'optimism',
+    SMARTCHAIN = 'smartchain',
 }
 
 export class Asset {
