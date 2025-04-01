@@ -14,6 +14,7 @@
   "dependencies": {
     "@gemwallet/types": "workspace:*",
     "@mayanfinance/swap-sdk": "10.4.0",
+    "@solana/web3.js": "^1.98.0",
     "@ston-fi/api": "0.21.0",
     "@ston-fi/sdk": "2.3.0",
     "@ton/ton": "15.2.1"
